@@ -45,5 +45,44 @@ header {
 
 #comScore, #playScore {
     font-size: 30px;
-    color: blue;
+    color: rgb(15, 15, 48);
+}
+
+main {
+    width: 60%;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+main div {
+    width: 33.33%;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+#win {
+    height: 200px;
+}
+
+#playAgain, #reset {
+    width: 150px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+#playAgain:hover, #reset:hover {
+    background-color: whitesmoke;
+    color: rgb(15, 15, 48);
+    border: 1px solid rgb(15, 15, 48);
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.8), 0 0 25px rgba(245, 245, 245, 0.8);
+    transition: 700ms linear;
 }
