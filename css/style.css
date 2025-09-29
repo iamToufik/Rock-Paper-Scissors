@@ -3,6 +3,12 @@
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -20,7 +26,6 @@ header {
   border: 1px solid white;
   margin-top: 10px;
   border-radius: 10px;
-  box-shadow: 0 0 10px white, 0 0 25px gray, 0 0 40px white;
 }
 
 
@@ -50,7 +55,7 @@ header {
 
 main {
     width: 60%;
-    height: 400px;
+    height: 380px;
     margin-top: 30px;
     display: flex;
     gap: 10px;
@@ -64,7 +69,7 @@ main div {
 }
 
 #win {
-    height: 200px;
+    height: 50px;
 }
 
 #playAgain, #reset {
@@ -83,6 +88,41 @@ main div {
     background-color: whitesmoke;
     color: rgb(15, 15, 48);
     border: 1px solid rgb(15, 15, 48);
-    box-shadow: 0 0 10px rgba(245, 245, 245, 0.8), 0 0 25px rgba(245, 245, 245, 0.8);
+    transition: 700ms linear;
+}
+
+#comSelect, #playSelect {
+    align-content: start;
+}
+
+footer {
+    width: 60%;
+    height: 70px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    gap: 10px;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+footer button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+footer button:hover {
+    background-color: whitesmoke;
+    color: rgb(15, 15, 48);
+    border: 1px solid rgb(15, 15, 48);
     transition: 700ms linear;
 }

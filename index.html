@@ -13,24 +13,29 @@
       <div class="title"><h1>Rock Paper Scissors</h1></div>
       <div class="computer">
         <h2>Computer</h2>
-        <div id="comScore"></div>
+        <div id="comScore">0</div>
       </div>
       <div class="player">
         <h2>Player</h2>
-        <div id="playScore"></div>
+        <div id="playScore">0</div>
       </div>
     </header>
     <main>
-        <div id="comSelect"></div>
+        <div id="comSelect">
+          <p>Computer Select</p>
+        </div>
         <div>
             <h2 id="win"></h2>
             <button id="playAgain">Play Again</button>
             <button id="reset">Reset Score</button>
         </div>
-        <div id="PlaySelect"></div>
+        <div id="playSelect">
+          <p>Player Select</p>
+        </div>
     </main>
     <footer>
-        <button>Rock</button><button>Paper</button><button>Scissor</button>
+        <button id="rock">Rock</button><button id="paper">Paper</button><button id="scissor">Scissor</button>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
